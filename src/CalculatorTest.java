@@ -1,11 +1,7 @@
 import java.util.Scanner;
 public class CalculatorTest {
     public static void main(String[] args){
-            Calculator addiition = new Calculator();
-            Calculator subtraction = new Calculator();
-            Calculator multiplication = new Calculator();
-            Calculator division = new Calculator();
-
+            Calculator calculator = new Calculator();
 
             Scanner scanner = new Scanner(System.in);
             System.out.println("Type number 1: ");
@@ -13,9 +9,9 @@ public class CalculatorTest {
             System.out.println("Type number 2: ");
             int secondNumber2 = scanner.nextInt();
 
-            addiition.add(firstNumber2,secondNumber2);
-            subtraction.sub(firstNumber2,secondNumber2);
-            multiplication.mul(firstNumber2,secondNumber2);
-            division.div(firstNumber2,secondNumber2);
+            calculator.add(firstNumber2,secondNumber2);
+            calculator.sub(firstNumber2,secondNumber2);
+            calculator.mul(firstNumber2,secondNumber2);
+            calculator.div(firstNumber2,secondNumber2);
     }
 }
