@@ -4,9 +4,9 @@ public class CalculatorTest {
             Calculator calculator = new Calculator();
 
             Scanner scanner = new Scanner(System.in);
-            System.out.println("Type number 1: ");
+            System.out.println("Type 1st number: ");
             int firstNumber2 = scanner.nextInt();
-            System.out.println("Type number 2: ");
+            System.out.println("Type 2nd number: ");
             int secondNumber2 = scanner.nextInt();
 
             calculator.add(firstNumber2,secondNumber2);
